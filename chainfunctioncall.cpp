@@ -12,3 +12,9 @@ string getJudul(){
     return this->judul;
 }
 };
+
+int main(){
+    buku bukunya;
+    cout<<bukunya.setJudul("Matematika").getJudul();
+    return 0;
+}
