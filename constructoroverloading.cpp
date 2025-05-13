@@ -41,5 +41,9 @@ int main(0{
     mahasiswa mhs2("Andi");
     mahasiswa mhs3(010203, "Santi");
 
-    
+    cout << "mahasiswa 1:"; mhs1.cetak();
+    cout << "mahasiswa 2:"; mhs2.cetak();
+    cout << "mahasiswa 3:"; mhs3.cetak();
+
+    return 0;
 })
